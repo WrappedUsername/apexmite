@@ -2,25 +2,25 @@
   "name": "apexmite",
   "version": "0.1.0",
   "description": "Apexmite Content Federation",
-  "main": "index.html",
+  "main": "main.ts",
+  "author": "WrappedUsername",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WrappedUsername/apexmite.git"
   },
-  "author": "WrappedUsername",
-  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/WrappedUsername/apexmite/issues"
   },
   "homepage": "https://github.com/WrappedUsername/apexmite#readme",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --optimization",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^15.2.0",
     "@angular/cdk": "15.2.3",
